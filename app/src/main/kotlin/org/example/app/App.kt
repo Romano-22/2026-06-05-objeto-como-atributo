@@ -27,9 +27,10 @@ fun main() {
     lista.add(Cuadratica())
     lista.add(Polinomio())
     lista.add(CuadraticaMejor())
+    lista.add(Cuatrinomio())
     
-    for (var p: lista){
-        println(p)
+    for (polinomio in lista){
+        println(polinomio)
     }
     
 
